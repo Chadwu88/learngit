@@ -1,0 +1,11 @@
+https://github.com/Chadwu88/learngit.git
+
+git config --list
+git config --global user.name "Chadwu88"
+git config --global user.email "Chuny.wu@gmail.com"
+
+ssh-keygen -t rsa -C "Chuny.wu@gmail.com"
+ssh -T git@github.com
+
+git remote add origin git@github.com:Chadwu88/learngit.git
+git push -u origin master
