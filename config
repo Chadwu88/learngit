@@ -3,3 +3,9 @@ Host github.com
     IdentityFile C:\\Users\\chadwu\\.ssh\\id_rsa_github
     PreferredAuthentications publickey
     User Chadwu88
+
+Host git.oa.com
+    HostName git.oa.com
+    IdentityFile C:\\Users\\chadwu\\.ssh\\id_rsa_oa
+    PreferredAuthentications publickey
+    User chadwu
